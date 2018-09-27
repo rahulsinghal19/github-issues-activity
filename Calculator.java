@@ -19,7 +19,7 @@ public class Calculator {
 	 *            a double
 	 * @return x + y
 	 */
-	public static double plus(double x, double y) {
+	public static double add(double x, double y) {
 		return x + y;
 	}
 
