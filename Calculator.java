@@ -72,7 +72,7 @@ public class Calculator {
 	 * @return the length of the hypotenuse of a right triangle with sides x and y.
 	 */
 	public double hypot(double x, double y) {
-		return Math.sqrt(x + y);
+		return Math.sqrt(Math.pow(x,2) + Math.pow(y,2));
 	}
 
 	/**
@@ -120,7 +120,7 @@ public class Calculator {
 	 * @return the perimeter of a circle with radius r.
 	 */
 	public double cirPer(double r) {
-		return Math.PI * r * r;
+		return Math.PI * 2 * r;
 	}
 
 	/**
