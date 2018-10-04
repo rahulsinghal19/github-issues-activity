@@ -71,7 +71,7 @@ public class Calculator {
 	 *            the length of the other side.
 	 * @return the length of the hypotenuse of a right triangle with sides x and y.
 	 */
-	public double hypotenuse(double x, double y) {
+	public static double hypotenuse(double x, double y) {
 		return Math.sqrt(Math.pow(x,2) + Math.pow(y,2));
 	}
 
@@ -97,7 +97,7 @@ public class Calculator {
 	 *            the length of the other side.
 	 * @return the perimeter of a rectangle with sides x and y.
 	 */
-	public double rectanglePerimeter(double x, double y) {
+	public static double rectanglePerimeter(double x, double y) {
 		return (2 * x) + (2 * y);
 	}
 
@@ -119,7 +119,7 @@ public class Calculator {
 	 *            the radius
 	 * @return the perimeter of a circle with radius r.
 	 */
-	public static double cirPer(double r) {
+	public static double circlePerimeter(double r) {
 		return Math.PI * 2 * r;
 	}
 
